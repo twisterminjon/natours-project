@@ -10,6 +10,7 @@ const cookieParser = require('cookie-parser');
 
 const morgan = require('morgan');
 
+// Start express app
 const app = express();
 
 app.set('view engine', 'pug');
